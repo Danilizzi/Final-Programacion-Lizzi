@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="110" y="120" width="980" height="560" rx="32" fill="#111827" stroke="#38bdf8" stroke-width="6"/>
+  <path d="M220 610C320 480 380 360 520 310C660 260 760 280 900 390" stroke="#38bdf8" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M250 620C360 500 460 420 580 390C700 360 780 360 930 470" stroke="#f8fafc" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <circle cx="360" cy="300" r="76" fill="#0ea5e9" opacity="0.7"/>
+  <circle cx="760" cy="260" r="44" fill="#f8fafc" opacity="0.2"/>
+  <text x="140" y="680" fill="#f8fafc" font-family="Arial, sans-serif" font-size="74" font-weight="700">Backrooms</text>
+  <text x="140" y="735" fill="#38bdf8" font-family="Arial, sans-serif" font-size="34" font-weight="600">Sin salida</text>
+</svg>

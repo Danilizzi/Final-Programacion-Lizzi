@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FilmFeed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="login-page">
+  <div class="login-background"></div>
+  <div class="login-container">
+    <div class="login-logo">
+      <h1> FilmFeed</h1>
+    </div>
+
+    <div class="welcome-section" id="welcomeSection">
+      <h2>¡Bienvenido a FilmFeed!</h2>
+      <div class="button-group">
+        <a href="#register-modal" class="btn btn-create">Crea una cuenta</a>
+        <a href="#login-modal" class="btn btn-login">Inicia sesión</a>
+      </div>
+
+      <p class="terms">Al iniciar sesión, aceptas las Condiciones de uso de FilmFeed</p>
+      
+      <div class="button-group">
+        <a href="index.html" class="btn btn-back">← Volver al inicio</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <a href="#" class="modal-close">&times;</a>
+      <h2>Inicia Sesión</h2>
+      <form class="modal-form">
+        <div class="form-group">
+          <input type="email" placeholder="Correo electrónico" required>
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Contraseña" required>
+        </div>
+        <button type="submit" class="btn-modal-submit">Inicia sesión</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="register-modal" class="modal">
+    <div class="modal-content">
+      <a href="#" class="modal-close">&times;</a>
+      <h2>Crea tu cuenta</h2>
+      <form class="modal-form">
+        <div class="form-group">
+          <input type="text" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Correo electrónico" required>
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Contraseña" required>
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Confirma tu contraseña" required>
+        </div>
+        <button type="submit" class="btn-modal-submit">Registrarse</button>
+      </form>
+
+    </div>
+  </div>
+
+</body>
+</html>

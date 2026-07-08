@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <rect x="150" y="150" width="900" height="500" rx="30" fill="#020617" opacity="0.85"/>
+  <circle cx="410" cy="320" r="120" fill="#f59e0b" opacity="0.75"/>
+  <circle cx="760" cy="320" r="170" fill="#fb7185" opacity="0.45"/>
+  <rect x="280" y="500" width="640" height="80" rx="20" fill="#f8fafc" opacity="0.2"/>
+  <text x="180" y="670" fill="#f8fafc" font-family="Arial, sans-serif" font-size="74" font-weight="700">Marty Supreme</text>
+  <text x="180" y="725" fill="#fbbf24" font-family="Arial, sans-serif" font-size="34" font-weight="600">Nueva película</text>
+</svg>
